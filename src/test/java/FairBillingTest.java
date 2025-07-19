@@ -21,6 +21,7 @@ public class FairBillingTest {
         assertFalse( file.isEmpty() );
         assertEquals("Data file is correct.", 11, file.size());
         System.out.println("Running test 1 - checking to load file...");
+        System.out.println("Added message to git push....");
     }
 
     @Test
